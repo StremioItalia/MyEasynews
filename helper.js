@@ -371,8 +371,7 @@ const getProxyUrl = (url = "") => {
   if (!url) return url;
 
  // let pUrl = `https://cdpproxy.stuff2-stuff216.workers.dev?url=${encodeURIComponent(url)}`;
-  let pUrl = `https://cdp.steveceltis.workers.dev?url=${encodeURIComponent(url)}`;
-    return pUrl;
+      return pUrl;
   };
 
 
