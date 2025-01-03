@@ -45,7 +45,7 @@ let isRedirect = async (url) => {
 
 let defaultAuthorization =
 
-  getAuthorization() || "Basic dXNlcm5hbWU6cGFzc3dvcmQ=";
+  getAuthorization() || "Basic <METTI LA TUA CHIAVE QUI'>";
 
 let fetchEasynews = async (query) => {
   query = sanitirizeName(query);
