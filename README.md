@@ -8,5 +8,4 @@ app_port: 3000
 pinned: false
 short_description: verc
 ---
-
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+Forked from https://github.com/daniwalter001
