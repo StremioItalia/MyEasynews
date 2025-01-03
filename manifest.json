@@ -1,0 +1,16 @@
+{
+  "id": "stremio.web.stream",
+  "version": "1.0.1",
+  "name": "Easy 2 v1",
+  "description": "From Easynews",
+  "logo": "https://i.imgur.com/9bJ04g2.jpeg",
+  "resources": [
+    {
+      "name": "stream",
+      "types": ["movie", "series", "anime"],
+      "idPrefixes": ["tt", "kitsu"]
+    }
+  ],
+  "types": ["movie", "series"],
+  "catalogs": []
+}
