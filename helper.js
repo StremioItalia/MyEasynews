@@ -367,12 +367,25 @@ let isVideo = (element) => {
   );
 };
 
-const getProxyUrl = (url = "") => {
-  if (!url) return url;
+// const getProxyUrl = (url = "") => {
+  // if (!url) return url;
 
  // let pUrl = `https://cdpproxy.stuff2-stuff216.workers.dev?url=${encodeURIComponent(url)}`;
-      return pUrl;
-  };
+ // let pUrl = `https://cdp.steveceltis.workers.dev?url=${encodeURIComponent(url)}`;
+  // let pUrl = `http://eswrktob-rotate:kwur4tb3qd97@p.webshare.io:80?url=${encodeURIComponent(url)}`;
+   // return pUrl;
+//  };
+
+
+  const getProxyUrl = (url = "") => {
+  if (!url) return url;
+  return `https://MY_PROXY_NAME?url=${encodeURIComponent(url)}`;
+
+  console.log("Proxy URL:", getProxyUrl(url));
+
+};
+
+
 
 
 module.exports = {
